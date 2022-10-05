@@ -23,7 +23,8 @@ function App() {
         {/* Navbar */}
         <Navbar />
         {/* Chat components */}
-        <Chat />
+        {user ? <Chat /> : null}
+        
       </section>
     </div>
   );
